@@ -19,7 +19,7 @@
   /* BORDER */
   --border: #e5e5e5;
 
-  /* SHADOWS (lighter like Eduma) */
+  /* SHADOWS*/
   --shadow: 0 4px 20px rgba(0, 0, 0, 0.06);
   --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.08);
 }
@@ -37,7 +37,6 @@ html {
 }
 
 body {
-  /* font-family: 'Hind', sans-serif; */
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   color: var(--text);
@@ -156,14 +155,14 @@ ul {
 /*TOP BAR */
 
 .topbar {
-  background: var(--secondary); /* old theme colors same rakhe */
+  background: var(--secondary); 
   color: #ccc;
   padding: 8px 0;
   font-size: 13px;
 }
 
 .topbar__wrap {
-  max-width: 1200px; /* container jaisa same width */
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
   display: flex;
@@ -227,7 +226,7 @@ ul {
   color: var(--primary);
 }
 
-/* EXTRA: login button style (new class) */
+/* EXTRA: login button style */
 .topbar__auth--login {
   border: 1px solid #555;
   padding: 4px 14px;
@@ -241,7 +240,7 @@ ul {
 /*HEADER  */
 
 .header {
-  background: #fff; /* NEW navbar white hai */
+  background: #fff; 
   position: sticky;
   top: 0;
   z-index: 1000;
@@ -249,7 +248,7 @@ ul {
   box-shadow: 0 2px 20px rgba(0, 0, 0, 0.08);
 }
 
-/* EXTRA: JS scroll class for new header */
+/* EXTRA: JS scroll class for header */
 .header.header--scrolled {
   box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
 }
@@ -284,7 +283,7 @@ ul {
 }
 
 .logo-text {
-  font-family: "Poppins", sans-serif; /* old font family maintain */
+  font-family: "Poppins", sans-serif; 
   font-size: 28px;
   font-weight: 700;
   color: var(--secondary);
@@ -328,7 +327,7 @@ ul {
   color: var(--primary);
 }
 
-/* EXTRA: arrow icon in new nav */
+/* EXTRA: arrow icon  */
 .nav__caret {
   font-size: 10px;
   transition: transform 0.3s ease;
@@ -338,7 +337,7 @@ ul {
   transform: rotate(180deg);
 }
 
-/* NEW Buy now button class */
+/*  Buy now button class */
 .nav__link--buynow {
   background: var(--primary);
   color: #fff !important;
@@ -350,7 +349,7 @@ ul {
   color: #fff !important;
 }
 
-/*  STANDARD DROPDOWN (for Pages)*/
+/*  STANDARD DROPDOWN */
 
 .dropdown {
   position: absolute;
@@ -369,7 +368,7 @@ ul {
   border-top: 3px solid var(--primary); /* EXTRA */
 }
 
-/* NEW: dropdown show only on nav__item--drop */
+/*  dropdown show only on nav__item--drop */
 .nav__item--drop:hover .dropdown {
   opacity: 1;
   visibility: visible;
@@ -412,8 +411,7 @@ ul {
   color: var(--primary) !important;
 }
 
-/* MEGA MENU (NEW for Demos / Courses)
-   EXTRA: ye purane navbar me nahi tha */
+/* MEGA MENU */
 
 .mega-panel {
   position: absolute;
@@ -558,11 +556,11 @@ ul {
   display: block;
   width: 25px;
   height: 2px;
-  background: var(--text-dark); /* white se dark because header white hai */
+  background: var(--text-dark);
   transition: all 0.3s;
 }
 
-/* EXTRA: hamburger open animation */
+/* hamburger open animation */
 .hamburger.open .hamburger__bar:nth-child(1) {
   transform: translateY(7px) rotate(45deg);
 }
@@ -573,7 +571,7 @@ ul {
   transform: translateY(-7px) rotate(-45deg);
 }
 
-/*HERO SECTION (FIXED FINAL) */
+/*HERO SECTION  */
 
 .hero-section {
   position: relative;
@@ -774,7 +772,7 @@ ul {
   }
 }
 
-/* COURSES SECTION (EDUMA STYLE) */
+/* COURSES SECTION */
 
 /* TABS */
 .courses-tabs {
@@ -848,7 +846,7 @@ ul {
 }
 
 .course-overlay {
-  background: rgba(0, 0, 0, 0.4); /* lighter like Eduma */
+  background: rgba(0, 0, 0, 0.4); 
 }
 
 /* BADGE */
@@ -965,7 +963,7 @@ ul {
   position: relative;
   width: 100%;
   height: 1px;
-  background: #eee; /* grey full line */
+  background: #eee; 
   margin: 15px 0;
 }
 
@@ -1007,7 +1005,7 @@ ul {
   }
 }
 
-/* REGISTER SECTION (FINAL) */
+/* REGISTER SECTION */
 
 .register-section {
   position: relative;
@@ -1178,7 +1176,7 @@ ul {
   }
 }
 
-/* COURSE PACKAGES (EDUMA) */
+/* COURSE PACKAGES */
 
 .packages-section {
   background: #f7f7f7;
@@ -1275,7 +1273,7 @@ ul {
 }
 
 .package-price .new {
-  color: #ff5a1f; /* Eduma orange price */
+  color: #ff5a1f;
   font-weight: 700;
 }
 
@@ -1298,7 +1296,7 @@ ul {
   }
 }
 
-/*  WHY CHOOSE US (EDUMA) */
+/*  WHY CHOOSE US*/
 
 .why-section {
   background: #f7f7f7;
@@ -1339,7 +1337,7 @@ ul {
   transition: all 0.3s ease;
 }
 
-/* HOVER (VERY SUBTLE like Eduma) */
+/* HOVER  */
 .why-card:hover {
   transform: translateY(-4px);
   box-shadow: var(--shadow);
@@ -1399,7 +1397,7 @@ ul {
 }
 
 /* WHY CHOOSE US */
-/* WHY BANNER (NO CONFLICT)*/
+/* WHY BANNER */
 
 .why-banner {
   padding: 5rem 0;
@@ -2134,7 +2132,7 @@ ul {
   color: var(--primary);
 }
 
-/* INSTRUCTOR PARALLAX (FINAL)*/
+/* INSTRUCTOR PARALLAX */
 .instructor-section {
   position: relative;
   height: 60vh;
@@ -2144,9 +2142,9 @@ ul {
 
   background-attachment: fixed;
 
-  display: flex; /* ✅ USE FLEX */
-  align-items: center; /* vertical center */
-  justify-content: center; /* horizontal center */
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
 
   text-align: center;
   color: #fff;
@@ -2636,12 +2634,11 @@ ul {
 /* MOBILE NAVBAR - header/topbar */
 
 @media (max-width: 991px) {
-  /* topbar optional hide on mobile for clean layout */
   .topbar {
     display: none;
   }
 
-  /* hamburger show on mobile */
+  /* hamburger */
   .hamburger {
     display: flex !important;
     z-index: 1101;
