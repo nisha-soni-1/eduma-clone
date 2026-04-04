@@ -202,6 +202,7 @@ mobileDropdownItems.forEach(function (item) {
 
 });
 
+// Hero Slider
 document.addEventListener("DOMContentLoaded", function () {
   const slides = document.querySelectorAll(".hero-slide");
   let index = 0;
