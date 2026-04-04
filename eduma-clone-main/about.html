@@ -1,0 +1,757 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us - Eduma Education</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Hind:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+   
+      <!-- Topbar  -->
+    <div class="topbar" id="topbar">
+      <div class="topbar__wrap">
+        <!-- Left: contact info -->
+        <div class="topbar__left">
+          <span class="topbar__item">
+            <i class="fa-solid fa-phone"></i>
+            Contact us: &nbsp;<strong>(+88) 1990 6886</strong>
+          </span>
+          <span class="topbar__divider">|</span>
+          <span class="topbar__item">
+            <i class="fa-regular fa-envelope"></i>
+            <strong>info@eduma.com</strong>
+          </span>
+          <span class="topbar__divider">|</span>
+          <a href="#" class="topbar__item topbar__demo-link"> Demo account </a>
+        </div>
+
+        <!-- Right: auth links -->
+        <div class="topbar__right">
+          <a href="#" class="topbar__auth">Register</a>
+          <span class="topbar__divider">|</span>
+          <a href="#" class="topbar__auth topbar__auth--login">
+            <i class="fa-regular fa-user"></i> Login
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Topbar -->
+
+   <!-- STICKY MAIN HEADER + NAVIGATION -->
+    <header class="header" id="mainHeader">
+      <div class="header__wrap">
+        <!-- Logo -->
+        <a href="#" class="header__logo" aria-label="Eduma Home">
+          <div class="logo-box">
+            <i class="fa-solid fa-graduation-cap logo-icon"></i>
+            <span class="logo-text"
+              >edu<span class="logo-text--accent">ma</span></span
+            >
+          </div>
+        </a>
+
+        <!-- ── Main Navigation ── -->
+        <nav class="nav" id="mainNav" aria-label="Main navigation">
+          <ul class="nav__list">
+            <!-- Home -->
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link nav__link--active">Home</a>
+            </li>
+
+            <!-- Demos (mega menu) -->
+            <li class="nav__item nav__item--mega">
+              <a href="#" class="nav__link">
+                Demos <i class="fa-solid fa-chevron-down nav__caret"></i>
+              </a>
+              <div class="mega-panel">
+                <div class="mega-panel__inner">
+                  <div class="mega-col">
+                    <h4 class="mega-heading">POPULAR</h4>
+                    <ul class="mega-list">
+                      <li><a href="#">Main Demo</a></li>
+                      <li><a href="#">Classic Eduma</a></li>
+                      <li>
+                        <a href="#"
+                          >Online Learning
+                          <span class="badge badge--hot">Hot</span></a
+                        >
+                      </li>
+                      <li>
+                        <a href="#"
+                          >Marketplace
+                          <span class="badge badge--popular">Popular</span></a
+                        >
+                      </li>
+                      <li><a href="#">Learning Platform</a></li>
+                      <li><a href="#">Education News</a></li>
+                      <li><a href="#">Ecommerce</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-col">
+                    <h4 class="mega-heading">UNIVERSITY</h4>
+                    <ul class="mega-list">
+                      <li>
+                        <a href="#"
+                          >University
+                          <span class="badge badge--new">New</span></a
+                        >
+                      </li>
+                      <li><a href="#">Ivy League</a></li>
+                      <li><a href="#">Grad School</a></li>
+                      <li><a href="#">Stanford</a></li>
+                      <li><a href="#">Modern University</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-col">
+                    <h4 class="mega-heading">ACADEMY</h4>
+                    <ul class="mega-list">
+                      <li>
+                        <a href="#"
+                          >Udemy <span class="badge badge--hot">Hot</span></a
+                        >
+                      </li>
+                      <li><a href="#">Coursera</a></li>
+                      <li><a href="#">New Art</a></li>
+                      <li><a href="#">Kid Art</a></li>
+                      <li><a href="#">Course Hub</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-col">
+                    <h4 class="mega-heading">SCHOOL</h4>
+                    <ul class="mega-list">
+                      <li><a href="#">Kindergarten</a></li>
+                      <li><a href="#">Online School</a></li>
+                      <li><a href="#">Language School</a></li>
+                    </ul>
+                    <h4 class="mega-heading" style="margin-top: 18px">
+                      TECHNOLOGY
+                    </h4>
+                    <ul class="mega-list">
+                      <li><a href="#">Edtech</a></li>
+                      <li><a href="#">Tech Camp</a></li>
+                      <li><a href="#">Crypto</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Courses (mega menu) -->
+            <li class="nav__item nav__item--mega">
+              <a href="#" class="nav__link">
+                Courses <i class="fa-solid fa-chevron-down nav__caret"></i>
+              </a>
+              <div class="mega-panel mega-panel--courses">
+                <div class="mega-panel__inner">
+                  <div class="mega-col">
+                    <h4 class="mega-heading">FEATURED COURSES</h4>
+                    <ul class="mega-course-list">
+                      <li>
+                        <img
+                          src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=60&q=70"
+                          alt="Course"
+                        />
+                        <a href="#">Introduction LearnPress – LMS plugin</a>
+                      </li>
+                      <li>
+                        <img
+                          src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=60&q=70"
+                          alt="Course"
+                        />
+                        <a href="#">Create an LMS Website with LearnPress</a>
+                      </li>
+                      <li>
+                        <img
+                          src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=60&q=70"
+                          alt="Course"
+                        />
+                        <a href="#">How To Teach An Online Course</a>
+                      </li>
+                    </ul>
+                    <a href="#" class="mega-view-all">View All →</a>
+                  </div>
+                  <div class="mega-col">
+                    <h4 class="mega-heading">COURSE LIST LAYOUT</h4>
+                    <ul class="mega-list">
+                      <li><a href="#">Course List Default</a></li>
+                      <li><a href="#">Course List 1</a></li>
+                      <li><a href="#">Course List 2</a></li>
+                      <li><a href="#">Course List 3</a></li>
+                      <li><a href="#">Course List Marketplace</a></li>
+                    </ul>
+                  </div>
+                  <div class="mega-col">
+                    <h4 class="mega-heading">COURSE GRID LAYOUT</h4>
+                    <ul class="mega-list">
+                      <li><a href="#">Grid Marketplace</a></li>
+                      <li><a href="#">Grid No Sidebar</a></li>
+                      <li><a href="#">Grid Right Sidebar</a></li>
+                    </ul>
+                    <h4 class="mega-heading" style="margin-top: 18px">
+                      CATEGORIES
+                    </h4>
+                    <ul class="mega-list">
+                      <li><a href="#">Coaching</a></li>
+                      <li><a href="#">Technology</a></li>
+                      <li><a href="#">Photography</a></li>
+                      <li><a href="#">Teaching Online</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </li>
+
+            <!-- Pages (dropdown) -->
+            <li class="nav__item nav__item--drop">
+              <a href="#" class="nav__link nav__link--current">
+                Pages <i class="fa-solid fa-chevron-down nav__caret"></i>
+              </a>
+              <ul class="dropdown">
+                <li class="dropdown__group-title">ABOUT</li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Events</a></li>
+                <li class="dropdown__divider"></li>
+                <li class="dropdown__group-title">BECOME A TEACHER</li>
+                <li>
+                  <a href="#" class="dropdown__active">Become a Teacher</a>
+                </li>
+                <li class="dropdown__divider"></li>
+                <li class="dropdown__group-title">SUPPORT</li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Terms &amp; Conditions</a></li>
+              </ul>
+            </li>
+
+            <!-- Blog -->
+            <li class="nav__item">
+              <a href="#" class="nav__link">Blog</a>
+            </li>
+
+            <!-- Elements -->
+            <li class="nav__item">
+              <a href="#" class="nav__link">Elements</a>
+            </li>
+
+            <!-- Buy Now (accent) -->
+            <li class="nav__item">
+              <a href="#" class="nav__link nav__link--buynow">Buy Now</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- /nav -->
+
+        <!-- Mobile hamburger button -->
+        <button
+          class="hamburger"
+          id="hamburger"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+        </button>
+      </div>
+     
+    </header>
+    <!-- /header -->
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+      <div
+        class="banner-bg"
+        style="
+          background-image: url(&quot;https://eduma.thimpress.com/demo-main/wp-content/uploads/sites/95/2022/09/about-banner.jpg&quot;);
+        "
+      ></div>
+      <div class="container">
+        <div class="banner-content">
+          <h1>About Us</h1>
+          <div class="breadcrumb">
+            <a href="index.html">Home</a>
+            <span><i class="fas fa-chevron-right"></i></span>
+            <span>About Us</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Intro -->
+    <section class="about-intro section-pad">
+      <div class="container">
+        <div class="about-intro-grid">
+          <div class="about-intro-image">
+            <img
+              src="https://eduma.thimpress.com/demo-main/wp-content/uploads/sites/95/2022/09/about-us.jpg"
+              alt="About Us"
+              onerror="
+                this.src =
+                  'https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600'
+              "
+            />
+            <div class="experience-badge">
+              <span class="exp-num">10</span>
+              <span class="exp-text">Years of<br />Experience</span>
+            </div>
+            <div class="students-badge">
+              <i class="fas fa-graduation-cap"></i>
+              <div>
+                <span>+1200</span>
+                <small>Students Graduated</small>
+              </div>
+            </div>
+          </div>
+          <div class="about-intro-content">
+            <span class="section-tag">ABOUT US</span>
+            <h2>Empowering Learners Across the Globe Since 2014</h2>
+            <p>
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean.
+            </p>
+            <p>
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia. It is a paradisematic country, in
+              which roasted parts of sentences fly into your mouth.
+            </p>
+            <div class="about-features">
+              <div class="about-feat-item">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                  <h5>World-Class Instructors</h5>
+                  <p>
+                    Learn from vetted professionals with real industry
+                    experience.
+                  </p>
+                </div>
+              </div>
+              <div class="about-feat-item">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                  <h5>Flexible Learning</h5>
+                  <p>
+                    Study on your own schedule with lifetime access to course
+                    content.
+                  </p>
+                </div>
+              </div>
+              <div class="about-feat-item">
+                <i class="fas fa-check-circle"></i>
+                <div>
+                  <h5>Certified Programs</h5>
+                  <p>
+                    Earn certificates recognized by leading organizations
+                    worldwide.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="btn btn-primary">Discover More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Counter Section -->
+    <section class="counter-section about-counter">
+      <div class="container">
+        <div class="counter-grid">
+          <div class="counter-item">
+            <i class="fas fa-graduation-cap"></i>
+            <span class="counter-num" data-target="1200">0</span>
+            <span class="counter-label">Students Enrolled</span>
+          </div>
+          <div class="counter-item">
+            <i class="fas fa-book-open"></i>
+            <span class="counter-num" data-target="56">0</span>
+            <span class="counter-label">Online Courses</span>
+          </div>
+          <div class="counter-item">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <span class="counter-num" data-target="12">0</span>
+            <span class="counter-label">Expert Instructors</span>
+          </div>
+          <div class="counter-item">
+            <i class="fas fa-trophy"></i>
+            <span class="counter-num" data-target="8">0</span>
+            <span class="counter-label">Awards Won</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mission & Vision -->
+    <section class="mission-section section-pad bg-light">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">OUR PURPOSE</span>
+          <h2>Our Mission & Vision</h2>
+        </div>
+        <div class="mission-grid">
+          <div class="mission-card">
+            <div class="mission-icon"><i class="fas fa-bullseye"></i></div>
+            <h3>Our Mission</h3>
+            <p>
+              To democratize education by making high-quality learning
+              accessible to everyone, everywhere. We believe that education is a
+              fundamental right and strive to break barriers that prevent people
+              from reaching their full potential.
+            </p>
+            <ul>
+              <li><i class="fas fa-check"></i> Accessible education for all</li>
+              <li><i class="fas fa-check"></i> Quality learning experiences</li>
+              <li><i class="fas fa-check"></i> Global community of learners</li>
+            </ul>
+          </div>
+          <div class="mission-card">
+            <div class="mission-icon"><i class="fas fa-eye"></i></div>
+            <h3>Our Vision</h3>
+            <p>
+              To be the world's leading online education platform where learners
+              can achieve their goals, transform their careers, and enrich their
+              lives through the power of knowledge and community-driven
+              learning.
+            </p>
+            <ul>
+              <li>
+                <i class="fas fa-check"></i> World-class educational standards
+              </li>
+              <li><i class="fas fa-check"></i> Innovative teaching methods</li>
+              <li><i class="fas fa-check"></i> Lifelong learning culture</li>
+            </ul>
+          </div>
+          <div class="mission-card">
+            <div class="mission-icon"><i class="fas fa-heart"></i></div>
+            <h3>Our Values</h3>
+            <p>
+              We are driven by passion, integrity, and a commitment to
+              excellence. Our values guide every decision we make—from course
+              curation to student support—ensuring we always put learners first
+              in everything we do.
+            </p>
+            <ul>
+              <li><i class="fas fa-check"></i> Integrity and transparency</li>
+              <li><i class="fas fa-check"></i> Innovation and creativity</li>
+              <li><i class="fas fa-check"></i> Student-first approach</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team-section section-pad">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">OUR TEAM</span>
+          <h2>Meet Our Expert Instructors</h2>
+          <p>
+            Our dedicated team of world-class educators brings passion and
+            expertise to every course.
+          </p>
+        </div>
+        <div class="instructors-grid">
+          <div class="instructor-card">
+            <div class="instructor-img">
+              <img
+                src="https://eduma.thimpress.com/demo-main/wp-content/uploads/sites/95/2022/09/instructor-2.jpg"
+                alt="Instructor"
+                onerror="this.src = 'https://i.pravatar.cc/300?img=10'"
+              />
+              <div class="instructor-socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="instructor-info">
+              <h4>David Johnson</h4>
+              <span>Web Development Expert</span>
+              <div class="instructor-meta">
+                <span><i class="fas fa-book"></i> 12 Courses</span>
+                <span><i class="fas fa-users"></i> 243 Students</span>
+              </div>
+            </div>
+          </div>
+          <div class="instructor-card">
+            <div class="instructor-img">
+              <img
+                src="https://eduma.thimpress.com/demo-main/wp-content/uploads/sites/95/2022/09/instructor-3.jpg"
+                alt="Instructor"
+                onerror="this.src = 'https://i.pravatar.cc/300?img=20'"
+              />
+              <div class="instructor-socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="instructor-info">
+              <h4>Emma Thompson</h4>
+              <span>Digital Marketing Specialist</span>
+              <div class="instructor-meta">
+                <span><i class="fas fa-book"></i> 8 Courses</span>
+                <span><i class="fas fa-users"></i> 187 Students</span>
+              </div>
+            </div>
+          </div>
+          <div class="instructor-card">
+            <div class="instructor-img">
+              <img
+                src="https://eduma.thimpress.com/demo-main/wp-content/uploads/sites/95/2022/09/instructor-4.jpg"
+                alt="Instructor"
+                onerror="this.src = 'https://i.pravatar.cc/300?img=30'"
+              />
+              <div class="instructor-socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="instructor-info">
+              <h4>Robert Martinez</h4>
+              <span>Photography Instructor</span>
+              <div class="instructor-meta">
+                <span><i class="fas fa-book"></i> 5 Courses</span>
+                <span><i class="fas fa-users"></i> 120 Students</span>
+              </div>
+            </div>
+          </div>
+          <div class="instructor-card">
+            <div class="instructor-img">
+              <img
+                src="https://eduma.thimpress.com/demo-main/wp-content/uploads/sites/95/2022/09/instructor-1.jpg"
+                alt="Instructor"
+                onerror="this.src = 'https://i.pravatar.cc/300?img=40'"
+              />
+              <div class="instructor-socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              </div>
+            </div>
+            <div class="instructor-info">
+              <h4>Sophia Williams</h4>
+              <span>Business Coach</span>
+              <div class="instructor-meta">
+                <span><i class="fas fa-book"></i> 9 Courses</span>
+                <span><i class="fas fa-users"></i> 310 Students</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials-section section-pad bg-light">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">TESTIMONIALS</span>
+          <h2>What Our Students Say</h2>
+        </div>
+        <div class="testimonials-slider" id="testimSlider">
+          <div class="testimonial-item active">
+            <div class="testimonial-content">
+              <p>
+                "Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts. Separated
+                they live in Bookmarksgrove right at the coast of the
+                Semantics."
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="https://eduma.thimpress.com/demo-main/wp-content/uploads/sites/95/2022/09/student-3.jpg"
+                  alt="Student"
+                  onerror="this.src = 'https://i.pravatar.cc/60?img=1'"
+                />
+                <div>
+                  <strong>Johnathan Watson</strong>
+                  <span>Web Developer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div class="testimonial-content">
+              <p>
+                "A wonderful serenity has taken possession of my entire soul,
+                like these sweet mornings of spring which I enjoy with my whole
+                heart. I am alone, and feel the charm of existence in this
+                spot."
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="https://eduma.thimpress.com/demo-main/wp-content/uploads/sites/95/2022/09/student-2.jpg"
+                  alt="Student"
+                  onerror="this.src = 'https://i.pravatar.cc/60?img=2'"
+                />
+                <div>
+                  <strong>Sarah Collins</strong>
+                  <span>Digital Marketer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-item">
+            <div class="testimonial-content">
+              <p>
+                "One morning, when Gregor Samsa woke from troubled dreams, he
+                found himself transformed in his bed into a horrible vermin. He
+                lay on his armour-like back, and if he lifted his head a
+                little."
+              </p>
+              <div class="testimonial-author">
+                <img
+                  src="https://eduma.thimpress.com/demo-main/wp-content/uploads/sites/95/2022/09/student-1.jpg"
+                  alt="Student"
+                  onerror="this.src = 'https://i.pravatar.cc/60?img=3'"
+                />
+                <div>
+                  <strong>Michael Johnson</strong>
+                  <span>Photographer</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-dots">
+          <span class="dot active" data-idx="0"></span>
+          <span class="dot" data-idx="1"></span>
+          <span class="dot" data-idx="2"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Partners -->
+    <section class="partners-section section-pad">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">OUR PARTNERS</span>
+          <h2>Trusted By Leading Organizations</h2>
+        </div>
+        <div class="partners-grid">
+          <div class="partner-item"><span>TechCorp</span></div>
+          <div class="partner-item"><span>EduGlobal</span></div>
+          <div class="partner-item"><span>LearnHub</span></div>
+          <div class="partner-item"><span>SkillNet</span></div>
+          <div class="partner-item"><span>BrightPath</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter -->
+    <section class="newsletter-section">
+      <div class="container">
+        <div class="newsletter-inner">
+          <div class="newsletter-text">
+            <h3>Subscribe to Our Newsletter</h3>
+            <p>
+              Get the latest news and updates delivered straight to your inbox.
+            </p>
+          </div>
+          <div class="newsletter-form">
+            <input type="email" placeholder="Enter your email address..." />
+            <button class="btn btn-primary">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="footer-grid">
+            <div class="footer-col">
+              <div class="footer-logo">
+                <img
+                  src="https://eduma.thimpress.com/demo-main/wp-content/uploads/sites/95/2022/12/logo-edu-white.png"
+                  alt="Eduma"
+                />
+              </div>
+              <p>
+                Far far away, behind the word mountains, far from the countries
+                Vokalia and Consonantia, there live the blind texts.
+              </p>
+              <div class="footer-socials">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+              </div>
+            </div>
+            <div class="footer-col">
+              <h4>Useful Links</h4>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#">Courses</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Popular Courses</h4>
+              <ul>
+                <li><a href="#">Introduction LearnPress</a></li>
+                <li><a href="#">Create an LMS Website</a></li>
+                <li><a href="#">How To Teach Online</a></li>
+                <li><a href="#">Photography Workshop</a></li>
+              </ul>
+            </div>
+            <div class="footer-col">
+              <h4>Contact Info</h4>
+              <div class="contact-info">
+                <div class="contact-item">
+                  <i class="fas fa-map-marker-alt"></i>
+                  <span>123 Learning Street, Education City, USA</span>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-phone"></i>
+                  <span>(+88) 1990 6886</span>
+                </div>
+                <div class="contact-item">
+                  <i class="fas fa-envelope"></i>
+                  <span>support@eduma.com</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="footer-bottom-inner">
+            <p>
+              © 2024 Eduma. All Rights Reserved. Designed by
+              <a href="#">ThimPress</a>.
+            </p>
+            <ul>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <a href="#" class="back-to-top" id="backToTop"
+      ><i class="fas fa-chevron-up"></i
+    ></a>
+
+    <script src="script.js"></script>
+  </body>
+</html>
